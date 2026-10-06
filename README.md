@@ -4,6 +4,7 @@
 [![Gazebo](https://img.shields.io/badge/Gazebo-Harmonic-orange.svg)](https://gazebosim.org/)
 [![C++](https://img.shields.io/badge/C++-17%2F20-00599C.svg?logo=c%2B%2B)](https://isocpp.org/)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB.svg?logo=python)](https://www.python.org/)
+[![Raspberry Pi](https://img.shields.io/badge/SBC-Raspberry_Pi_Zero_2_W-C51A4A.svg?logo=raspberrypi&logoColor=white)](https://www.raspberrypi.com/)
 [![Embedded](https://img.shields.io/badge/Platform-ESP32%20%7C%20Linux-red.svg)](https://www.espressif.com/)
 [![License: Academic / Open](https://img.shields.io/badge/Access-Research%20Showcase-green.svg)](#intellectual-property--code-access)
 
@@ -20,7 +21,7 @@ This repository serves as a centralized technical showcase of my major engineeri
 * **Robotics & Simulation:** ROS 2 (Jazzy), Gazebo (Harmonic), URDF/xacro, TF2, Waypoint Navigation, Kinematics & Dynamics, Hydrodynamic Modeling.
 * **Languages & Frameworks:** C++, Python, C, Java (OOP), Linux/Ubuntu (CLI, Bash, Git), TensorFlow / Keras (1D-CNNs).
 * **Control & Mathematics:** Digital PID Tuning, State-Space Representation, Transfer Functions, Sensor Filtering (IMU & GPS), Collision Avoidance.
-* **Embedded Systems & Hardware:** ESP32, ATmega, FreeRTOS, KiCad PCB Design, ESP-NOW, BLE, UART, I2C, SPI, Modbus.
+* **Embedded Systems & Hardware:** Raspberry Pi Zero 2 W (Linux SBC), ESP32, ATmega, FreeRTOS, KiCad PCB Design, ESP-NOW, BLE, UART, I2C, SPI.
 * **Industrial Automation:** Siemens S7 PLCs (S7-300, S7-1200, S7-1500), TIA Portal, HMI, VFDs (Delta), Servodrives (Yaskawa), P&ID Instrumentation.
 
 ---
@@ -29,7 +30,7 @@ This repository serves as a centralized technical showcase of my major engineeri
 
 | Project | Domain | Core Stack | Key Highlights | Case Study |
 | :--- | :--- | :--- | :--- | :---: |
-| **Aquatic Surface Swarm Robotics** | Autonomous USVs / Multi-Agent | ROS 2, Gazebo Harmonic, Python, C++, ESP-NOW | Lake-tested fleet of 3 ASVs; simulation scaled to 20 agents; decentralized collision avoidance. | [Explore ➔](./aquatic_surface_swarm_robotics/) |
+| **Aquatic Surface Swarm Robotics** | Autonomous USVs / Multi-Agent | ROS 2, Gazebo Harmonic, Raspberry Pi, Python, ESP32, C++, ESP-NOW | Lake-tested fleet of 3 ASVs; simulation scaled to 20 agents; decentralized collision avoidance. | [Explore ➔](./aquatic_surface_swarm_robotics/) |
 | **Biomechatronic Fall Detection** | Applied ML & Edge Telemetry | Python, 1D-CNN, ESP32, BLE | Real-time inertial time-series classification; low-latency edge-to-mobile alert pipeline. | [Explore ➔](./biomechatronic_fall_detection/) |
 | **Cobot & Pneumatic Integration** | Industrial Automation | UFACTORY Lite 6, Festo, ESP32, Node-RED | Legacy-to-smart pneumatic cell sequencing; IoT telemetry bridge; Real time monitoring. | [Explore ➔](./ufactory_festo_integration/) |
 | **Modular Open-Source PLC** | Embedded Systems & Hardware | KiCad, ESP32, C++, FreeRTOS | Custom modular PCB architecture; isolated industrial I/O; dual Ladder & C++ runtime. | [Explore ➔](./modular_opensource_plc/) |
