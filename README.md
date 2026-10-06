@@ -10,8 +10,6 @@
 
 Mechatronics Engineer graduated from **ESPOL** (Guayaquil, Ecuador) specializing in **autonomous robotics, embedded systems, and distributed control architectures**. 
 
-This repository collects all the mechatronic projects that i've been involved throughout my career (Mechatronic engineer) at Escuela Superior Politécnica del Litoral (ESPOL).
-
 This repository serves as a centralized technical showcase of my major engineering and research projects, focusing on end-to-end system ownership: mathematical modeling, simulation (sim-to-real), PCB & CAD design, embedded firmware, software and hardware integration.
 
 ---
