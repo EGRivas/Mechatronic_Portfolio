@@ -81,8 +81,6 @@ This repository serves as a centralized technical showcase of my major engineeri
 ## 🔒 Intellectual Property & Code Access
 
 > **Note on Research Data & Source Code:**  
-> Core algorithms, proprietary control loops, and comprehensive datasets (particularly regarding the Aquatic Swarm Robotics thesis) are currently protected under ongoing peer-reviewed journal submission (Target: Q1 Journal).  
-> 
 > Detailed architecture runbooks, system schematics, and simulation demonstrations are shared within each project folder. Full source code access is available upon request for academic evaluation or technical hiring committees.
 
 ---
