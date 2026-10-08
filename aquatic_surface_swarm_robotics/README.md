@@ -124,5 +124,5 @@ aquatic_surface_swarm_robotics/
 
 ### 🏛️ Academic Affiliation & Supervision
 * **Thesis Advisors:** [David Garzón, Ph.D.](https://scholar.google.com/citations?user=4-CJclQAAAAJ&hl=en) | [Christian Tutivén, Ph.D.](https://scholar.google.com/citations?hl=en&user=yN1sEhsAAAAJ) 
-* **Research Group:** **CoRAL** (Collective Robotics and AI Lab)
+* **Research Group:** **[CoRAL](https://github.com/coral-espol/robots_acuaticos)** (Collective Robotics and AI Lab)
 * **Institution:** Escuela Superior Politécnica del Litoral (ESPOL), Guayaquil, Ecuador
