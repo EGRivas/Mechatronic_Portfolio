@@ -123,6 +123,6 @@ aquatic_surface_swarm_robotics/
   [LinkedIn](https://www.linkedin.com/in/milena-dayanna-rodr%C3%ADguez-astudillo-4976b4298/) | [Email](mailto:mildarod@espol.edu.ec)
 
 ### 🏛️ Academic Affiliation & Supervision
-* ** Thesis Advisors:** [David Garzón, Ph.D.](https://scholar.google.com/citations?user=4-CJclQAAAAJ&hl=en) | [Christian Tutivén, Ph.D.](https://scholar.google.com/citations?hl=en&user=yN1sEhsAAAAJ) 
+* **Thesis Advisors:** [David Garzón, Ph.D.](https://scholar.google.com/citations?user=4-CJclQAAAAJ&hl=en) | [Christian Tutivén, Ph.D.](https://scholar.google.com/citations?hl=en&user=yN1sEhsAAAAJ) 
 * **Research Group:** **CoRAL** (Collective Robotics and AI Lab)
 * **Institution:** Escuela Superior Politécnica del Litoral (ESPOL), Guayaquil, Ecuador
