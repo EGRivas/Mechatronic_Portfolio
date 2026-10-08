@@ -21,7 +21,7 @@ Developed at **CoRAL Lab (ESPOL)**.
 | *3 USVs executing decentralized waypoint patrol* | *Multi-agent scalability testing (up to 20 concurrent nodes)* |
 
 > 📺 **Full Video Demonstrations:**  
-> - 🇪🇨 & 🇪🇸 [Watch 3-Agent Autonomous Missions and brief explanation (YouTube)]([https://youtu.be/TU_VIDEO_ESPOL](https://youtu.be/UMnkEa_evzY))  
+> - 🇪🇨 & 🇪🇸 [Watch 3-Agent Autonomous Missions and brief explanation (YouTube)](https://youtu.be/UMnkEa_evzY)  
 > - 🏊 [Watch Simulation Development Tests (YouTube playlist)](https://youtube.com/playlist?list=PL8n_4KnNGx2n-5VLmENLNj3OTQICQIQzr&si=vs_kWSMrW3dEg3GG)
 > - | *All missions were made in real enviroments such as lakes (ESPOL and UAM) and pools* |
 
