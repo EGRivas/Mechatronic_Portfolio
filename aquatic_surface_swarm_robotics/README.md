@@ -98,15 +98,31 @@ aquatic_surface_swarm_robotics/
 ├── README.md                           # Project case study (this file)
 ├── README.es.md                        # Versión en español del estudio de caso
 ├── media/                              # Visual assets, telemetry plots, and schematics
-│   ├── fleet_lake_espol.gif            # 3 ASVs operating in ESPOL Lake
-│   ├── gazebo_swarm_simulation.gif     # 20-agent simulation demonstration
-│   ├── collision_avoidance_demo.gif    # Dynamic reactive obstacle avoidance
+│   ├── fleet_lake_espol.gif            # 3 USVs operating in ESPOL Lake
+│   ├── gazebo_swarm_simulation.gif     # agent simulation demonstration
 │   ├── dashboard_nodered.png           # Live Node-RED dashboard interface
-│   ├── hardware_chassis_render.png     # SolidWorks 3D CAD explode / physical build
-│   └── trajectory_tracking_error.png   # Matplotlib waypoint tracking error plot
-
+│   └── hardware_chassis_render.png     # SolidWorks 3D CAD explode / physical build
 ```
+
+---
+
 ## 🔒 Research & Intellectual Property Notice
 > **Note on Research Data & Source Code:**  
 > The complete algorithmic implementation (decentralized consensus, hydrodynamic and control parameter tuning) along with full experimental datasets are part of an ongoing manuscript currently prepared for submission to a Q1-indexed peer-reviewed journal. Full source code access is available upon request for academic evaluation or technical hiring committees.
 
+---
+
+## 👤 Research & Development Team
+
+* **Emmanuel Rivas Pincay** — Robotics, Embedded Systems, Experimental Validation & Simulation Engineer  
+  *Mechatronics Engineering Graduate, ESPOL*  
+  [LinkedIn](https://linkedin.com/in/emmanuel-rivas-pincay-a25334221) | [Email](mailto:egrivas64@gmail.com)
+
+* **Milena Rodríguez Astudillo** — Robotics, Mechanical Design & Experimental Validation Engineer  
+  *Mechatronics Engineering Graduate, ESPOL*  
+  [LinkedIn](https://www.linkedin.com/in/milena-dayanna-rodr%C3%ADguez-astudillo-4976b4298/) | [Email](mailto:mildarod@espol.edu.ec)
+
+### 🏛️ Academic Affiliation & Supervision
+* ** Thesis Advisors:** [David Garzón, Ph.D.](https://scholar.google.com/citations?user=4-CJclQAAAAJ&hl=en) | [Christian Tutivén, Ph.D.](https://scholar.google.com/citations?hl=en&user=yN1sEhsAAAAJ) 
+* **Research Group:** **CoRAL** (Collective Robotics and AI Lab)
+* **Institution:** Escuela Superior Politécnica del Litoral (ESPOL), Guayaquil, Ecuador
