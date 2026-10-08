@@ -81,7 +81,7 @@ This repository serves as a centralized technical showcase of my major engineeri
 ## 🔒 Intellectual Property & Code Access
 
 > **Note on Research Data & Source Code:**  
-> Detailed architecture runbooks, system schematics, and simulation demonstrations are shared within each project folder. Full source code access is available upon request for academic evaluation or technical hiring committees.
+> Detailed architecture explanations, system schematics and simulation demonstrations are shared within each project folder. Full source code access is available upon request for academic evaluation or technical hiring committees.
 
 ---
 
