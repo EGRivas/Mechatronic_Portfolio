@@ -23,7 +23,7 @@ Developed at **CoRAL Lab (ESPOL)**.
 > 📺 **Full Video Demonstrations:**  
 > - 🇪🇨 & 🇪🇸 [Watch 3-Agent Autonomous Missions and brief explanation (YouTube)](https://youtu.be/TU_VIDEO_ESPOL)  
 > - 🏊 [Watch Simulation Development Tests (YouTube playlist)](https://youtu.be/TU_VIDEO_POOL)
-> | *All missions were made in real enviroments such as lakes (ESPOL and UAM) and pools* |
+> - | *All missions were made in real enviroments such as lakes (ESPOL and UAM) and pools* |
 
 ---
 
