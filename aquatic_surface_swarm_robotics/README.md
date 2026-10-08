@@ -85,9 +85,9 @@ ARCHITECTURE IMAGE
 
 ## 🗺️ Real-World Application Domains
 
+* **Academic Multi-Agent Research:** Accessible, modular hardware platform for distributed consensus algorithms, Voronoi tessellation coverage, and cooperative path planning.
 * **Industrial Aquaculture & Shrimp Farms:** Continuous monitoring of pH stratification and critical temperature shifts across multi-hectare ponds without operational boat crews.
 * **Estuaries, Rivers & Reservoirs:** Early detection of industrial effluent discharges and ecological boundary tracking.
-* **Academic Multi-Agent Research:** Accessible, modular hardware platform for distributed consensus algorithms, Voronoi tessellation coverage, and cooperative path planning.
 
 ---
 
