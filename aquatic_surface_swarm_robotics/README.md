@@ -23,6 +23,7 @@ Developed at **CoRAL Lab (ESPOL)**.
 > 📺 **Full Video Demonstrations:**  
 > - 🇪🇨 & 🇪🇸 [Watch 3-Agent Autonomous Missions and brief explanation (YouTube)](https://youtu.be/UMnkEa_evzY)  
 > - 🏊 [Watch Simulation Development Tests (YouTube playlist)](https://youtube.com/playlist?list=PL8n_4KnNGx2n-5VLmENLNj3OTQICQIQzr&si=vs_kWSMrW3dEg3GG)
+> - 🏊 [View the university faculty's post about this project. (Instagram Post)](https://www.instagram.com/reel/DceYdwiy3MX/?mdxt=MzRlODBiNWFlZA==)
 > - | *All missions were made in real enviroments such as lakes (ESPOL and UAM) and pools* |
 
 ---
@@ -30,8 +31,6 @@ Developed at **CoRAL Lab (ESPOL)**.
 ## 📌 System Architecture
 
 The USV platform is built upon a hybrid distributed embedded architecture, separating high-level autonomous navigation from real-time data acquisition and peer-to-peer networking.
-
-ARCHITECTURE IMAGE
 
 ### 1. High-Level Navigation (Raspberry Pi Zero 2 W)
 * Executes path tracking, mission state machines and ROS 2 nodes (in actual development) under an embedded Linux environment.
@@ -42,6 +41,8 @@ ARCHITECTURE IMAGE
 * Interacts directly with hardware: analog/digital front-ends for industrial-grade pH and temperature probes.
 * Runs IMU yaw estimation and GPS positioning.
 * Hosts the decentralized **ESP-NOW communication protocol**, maintaining dynamic neighbor tables without reliance on local Wi-Fi routers or 4G/5G towers.
+
+![Dual Architecture](media/dual_architecture.png)
 
 ---
 
@@ -99,9 +100,12 @@ aquatic_surface_swarm_robotics/
 ├── README.es.md                        # Versión en español del estudio de caso
 ├── media/                              # Visual assets, telemetry plots, and schematics
 │   ├── fleet_lake_espol.gif            # 3 USVs operating in ESPOL Lake
-│   ├── gazebo_swarm_simulation.gif     # agent simulation demonstration
+│   ├── dual_architecture.png           # Dual architecture of the aquatic swarm system
+│   ├── gazebo_swarm_simulation.gif     # Agent simulation demonstration
 │   ├── dashboard_nodered.png           # Live Node-RED dashboard interface
-│   └── hardware_chassis_render.png     # SolidWorks 3D CAD explode / physical build
+│   ├── hardware_chassis_render.png     # SolidWorks 3D CAD explode
+│   ├── physical_connections.jpg        # Real-life electronic connections
+│   └── pcb_design.jpg                  # PCB made in KiCad, ESP32 pin extension
 ```
 
 ---
@@ -124,5 +128,5 @@ aquatic_surface_swarm_robotics/
 
 ### 🏛️ Academic Affiliation & Supervision
 * **Thesis Advisors:** [David Garzón, Ph.D.](https://scholar.google.com/citations?user=4-CJclQAAAAJ&hl=en) | [Christian Tutivén, Ph.D.](https://scholar.google.com/citations?hl=en&user=yN1sEhsAAAAJ) 
-* **Research Group:** **[CoRAL](https://github.com/coral-espol/robots_acuaticos)** (Collective Robotics and AI Lab)
+* **Research Group:** **[CoRAL](https://github.com/coral-espol/)** (Collective Robotics and AI Lab)
 * **Institution:** Escuela Superior Politécnica del Litoral (ESPOL), Guayaquil, Ecuador
