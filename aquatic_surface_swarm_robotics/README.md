@@ -81,7 +81,11 @@ The USV platform is built upon a hybrid distributed embedded architecture, separ
 * Instead of discrete, single-point water samples, the vehicles compile spatial-temporal time-series datasets.
 * Real-time field telemetry (pH, °C, GPS position, and timestamps) is streamed to an operational **Node-RED supervision dashboard**.
 
-![Node-RED Monitoring Dashboard](media/dashboard_nodered.png)
+<p align="center">
+  <img src="media/dashboard_nodered.png" width="460" alt="Node-RED Monitoring Dashboard">
+  <br>
+  <em>Figure 3: Live telemetry, GPS trajectory visualization, and environmental sensing dashboard.</em>
+</p>
 
 ---
 
