@@ -24,7 +24,7 @@ Developed at **CoRAL Lab (ESPOL)**.
 
 ### Hydrodynamic Swarm Simulation (Gazebo)
 <p align="center">
-  <img src="media/gazebo_swarm_simulation.gif" width="85%" alt="Gazebo 20-Robot Simulation">
+  <img src="media/gazebo_swarm_simulation.gif" width="720" alt="Gazebo 20-Robot Simulation">
   <br>
   <em>Multi-agent scalability testing (up to 20 concurrent nodes)</em>
 </p>
@@ -51,7 +51,11 @@ The USV platform is built upon a hybrid distributed embedded architecture, separ
 * Runs IMU yaw estimation and GPS positioning.
 * Hosts the decentralized **ESP-NOW communication protocol**, maintaining dynamic neighbor tables without reliance on local Wi-Fi routers or 4G/5G towers.
 
-![Dual Architecture](media/dual_architecture.png)
+<p align="center">
+  <img src="media/dual_architecture.png" width="720" alt="Dual Architecture">
+  <br>
+  <em>Figure 1: Dual embedded hardware-software architecture of the aquatic swarm platform.</em>
+</p>
 
 ---
 
@@ -67,13 +71,21 @@ The USV platform is built upon a hybrid distributed embedded architecture, separ
 * Tested different types of swarm control algorithms. Proprietary algorithm based on 2D BOIDS (still not implemented on real scenarios) and waypoint based algorithms (tested on real environments as shown on videos) .
 * Scaled multi-robot mission scenarios up to **20 simultaneous agents** in simulation prior to manufacturing.
 
-![Gazebo Multi-Agent Setup](media/gazebo_architecture.png)
+<p align="center">
+  <img src="media/gazebo_architecture.png" width="460" alt="Gazebo Multi-Agent Setup">
+  <br>
+  <em>Figure 2: ROS 2 / Gazebo Harmonic bridge and lifecycle architecture for multi-agent deployment.</em>
+</p>
 
 ### 3. Continuous Water Quality Telemetry
 * Instead of discrete, single-point water samples, the vehicles compile spatial-temporal time-series datasets.
 * Real-time field telemetry (pH, °C, GPS position, and timestamps) is streamed to an operational **Node-RED supervision dashboard**.
 
-![Node-RED Monitoring Dashboard](media/dashboard_nodered.png)
+<p align="center">
+  <img src="media/dashboard_nodered.png" width="720" alt="Node-RED Monitoring Dashboard">
+  <br>
+  <em>Figure 3: Live telemetry, GPS trajectory visualization and environmental sensing dashboard.</em>
+</p>
 
 ---
 
