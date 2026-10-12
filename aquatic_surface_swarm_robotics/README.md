@@ -19,7 +19,7 @@ Developed at **CoRAL Lab (ESPOL)**.
 <p align="center">
   <img src="media/fleet_lake_espol.gif" width="320" alt="Physical Swarm Fleet">
   <br>
-  <em>3 USVs executing decentralized waypoint patrol on lake tests</em>
+  <em>3 USVs lake tests</em>
 </p>
 
 ### Hydrodynamic Swarm Simulation (Gazebo)
