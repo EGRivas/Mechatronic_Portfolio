@@ -15,13 +15,19 @@ Developed at **CoRAL Lab (ESPOL)**.
 
 ## 🎬 Field Deployments & Sim-to-Real Showcase
 
-| Physical Deployment (ESPOL Lake) | Hydrodynamic Swarm Simulation (Gazebo) |
+### Physical Deployment (ESPOL Lake)
+<p align="center">
+  <img src="media/fleet_lake_espol.gif" width="70%" alt="Physical Swarm Fleet">
+  <br>
+  <em>3 USVs executing decentralized waypoint patrol on lake tests</em>
+</p>
 
-| :---: | :---: |
-
-| ![Physical Swarm Fleet](media/fleet_lake_espol.gif) | ![Gazebo 20-Robot Simulation](media/gazebo_swarm_simulation.gif) |
-
-| *3 USVs lake tests* | *Multi-agent scalability testing (up to 20 concurrent nodes)* |
+### Hydrodynamic Swarm Simulation (Gazebo)
+<p align="center">
+  <img src="media/gazebo_swarm_simulation.gif" width="85%" alt="Gazebo 20-Robot Simulation">
+  <br>
+  <em>Multi-agent scalability testing (up to 20 concurrent nodes)</em>
+</p>
 
 > 📺 **Full Video Demonstrations:**  
 > - 🇪🇨 & 🇪🇸 [Watch 3-Agent Autonomous Missions and brief explanation (YouTube)](https://youtu.be/UMnkEa_evzY)  
