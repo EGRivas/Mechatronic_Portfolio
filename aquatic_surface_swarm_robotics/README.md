@@ -66,6 +66,12 @@ The USV platform is built upon a hybrid distributed embedded architecture, separ
 * The swarm autonomously segments large bodies of water without central server orchestration.
 * When two agents detect converging trajectories within safety radius, reactive decentralized collision avoidance policies adjust thruster differentials deterministically.
 
+<p align="center">
+  <img src="media/waypoint_based_control.png" width="460" alt="Waypoint based control">
+  <br>
+  <em>Figure 2: Waypoint based GPS + IMU control & swarm communication.</em>
+</p>
+
 ### 2. Sim-to-Real Transfer (ROS 2 Jazzy + Gazebo Harmonic)
 * Modeled full rigid-body hydrodynamics (buoyancy, drag tensors, hydrodynamic damping in actual development) using URDF.
 * Tested different types of swarm control algorithms. Proprietary algorithm based on 2D BOIDS (still not implemented on real scenarios) and waypoint based algorithms (tested on real environments as shown on videos) .
@@ -74,7 +80,7 @@ The USV platform is built upon a hybrid distributed embedded architecture, separ
 <p align="center">
   <img src="media/gazebo_architecture.png" width="460" alt="Gazebo Multi-Agent Setup">
   <br>
-  <em>Figure 2: ROS 2 / Gazebo Harmonic bridge and lifecycle architecture for multi-agent deployment.</em>
+  <em>Figure 3: ROS 2 / Gazebo Harmonic bridge and lifecycle architecture for multi-agent deployment.</em>
 </p>
 
 ### 3. Continuous Water Quality Telemetry
@@ -84,7 +90,7 @@ The USV platform is built upon a hybrid distributed embedded architecture, separ
 <p align="center">
   <img src="media/dashboard_nodered.png" width="460" alt="Node-RED Monitoring Dashboard">
   <br>
-  <em>Figure 3: Live telemetry, GPS trajectory visualization, and environmental sensing dashboard.</em>
+  <em>Figure 4: Live telemetry, GPS trajectory visualization, and environmental sensing dashboard.</em>
 </p>
 
 ---
