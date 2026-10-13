@@ -67,7 +67,7 @@ The USV platform is built upon a hybrid distributed embedded architecture, separ
 * When two agents detect converging trajectories within safety radius, reactive decentralized collision avoidance policies adjust thruster differentials deterministically.
 
 <p align="center">
-  <img src="media/waypoint_based_control.png" width="460" alt="Waypoint based control">
+  <img src="media/waypoint_based_control.png" width="720" alt="Waypoint based control">
   <br>
   <em>Figure 2: Waypoint based GPS + IMU control & swarm communication.</em>
 </p>
