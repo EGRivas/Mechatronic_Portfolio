@@ -12,6 +12,9 @@ Mechatronics Engineer graduated from **ESPOL** (Guayaquil, Ecuador) specializing
 
 This repository serves as a centralized technical showcase of my major engineering and research projects, focusing on end-to-end system ownership: mathematical modeling, simulation (sim-to-real), PCB & CAD design, embedded firmware, software and hardware integration.
 
+> 🚧 **Active Maintenance & Documentation Notice:**  
+> This portfolio is actively undergoing technical consolidation. Detailed case studies, field telemetry datasets, hardware schematics and demonstration media across certain projects are currently being compiled, documented, and structured. Progress and updates are committed regularly.
+
 ---
 
 ## 🧰 Core Engineering Skills
