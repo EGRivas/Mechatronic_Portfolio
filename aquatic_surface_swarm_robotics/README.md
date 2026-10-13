@@ -140,13 +140,19 @@ aquatic_surface_swarm_robotics/
 ## 👤 Research & Development Team
 
 * **Emmanuel Rivas Pincay** — Robotics & Embedded Systems Engineer
+
   *Mechatronics Engineering Graduate, ESPOL*
+
   **Core focus:** Distributed control algorithms, dual embedded architecture (RPi/ESP32), ROS 2/Gazebo simulation, electromechanical prototyping, waterproof enclosure design & full-system field validation.
+
   [LinkedIn](https://linkedin.com/in/emmanuel-rivas-pincay-a25334221) | [Email](mailto:egrivas64@gmail.com)
 
 * **Milena Rodríguez Astudillo** — Robotics & Mechanical Design Engineer  
+
   *Mechatronics Engineering Graduate, ESPOL*
+
   **Core focus:** Structural CAD design, additive manufacturing, electromechanical assembly & field test debugging.
+
   [LinkedIn](https://www.linkedin.com/in/milena-dayanna-rodr%C3%ADguez-astudillo-4976b4298/) | [Email](mailto:mildarod@espol.edu.ec)
 
 ### 🏛️ Academic Affiliation & Supervision
