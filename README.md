@@ -91,5 +91,6 @@ This repository serves as a centralized technical showcase of my major engineeri
 ## 📬 Contact & Links
 
 * **Location:** Guayaquil, Ecuador
-* **Email:** [egrivas64@gmail.com](mailto:egrivas64@gmail.com)
+* **Institutional Email:** [egrivas@espol.edu.ec](mailto:egrivas@espol.edu.ec)
+* **Personal Email:** [egrivas64@gmail.com](mailto:egrivas64@gmail.com)
 * **LinkedIn:** [linkedin.com/in/emmanuel-rivas-pincay-a25334221](https://linkedin.com/in/emmanuel-rivas-pincay-a25334221)
