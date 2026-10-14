@@ -128,6 +128,7 @@ aquatic_surface_swarm_robotics/
 ├── media/                              # Visual assets, telemetry plots, and schematics
 │   ├── fleet_lake_espol.gif            # 3 USVs operating in ESPOL Lake
 │   ├── dual_architecture.png           # Dual architecture of the aquatic swarm system
+│   ├── waypoint_based_control.png      # Waypoint based control algorithm implemented
 │   ├── gazebo_swarm_simulation.gif     # Agent simulation demonstration
 │   ├── dashboard_nodered.png           # Live Node-RED dashboard interface
 │   ├── hardware_chassis_render.png     # SolidWorks 3D CAD explode
