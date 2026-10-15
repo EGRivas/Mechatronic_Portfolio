@@ -1,10 +1,5 @@
 # Proyecto de Tesis de Grado: Robótica de Enjambre Acuática de Superficie para Monitoreo Ambiental
 
-<p align="right">
-  <a href="README.md">🇬🇧 <b>English</b></a> &nbsp;|&nbsp; 
-  <a href="README.es.md">🇪🇸 <b>Español</b></a>
-</p>
-
 [![ROS 2](https://img.shields.io/badge/ROS_2-Jazzy_Jalisco-blue.svg)](https://docs.ros.org/en/jazzy/)
 [![Gazebo](https://img.shields.io/badge/Gazebo-Harmonic-orange.svg)](https://gazebosim.org/)
 [![SBC](https://img.shields.io/badge/SBC-Raspberry_Pi_Zero_2_W-C51A4A.svg?logo=raspberrypi&logoColor=white)](https://www.raspberrypi.com/)
@@ -15,6 +10,11 @@
 Un enjambre descentralizado integral de **Vehículos Autónomos de Superficie (USVs)** diseñado para la evaluación espacio-temporal continua de la calidad del agua (pH y temperatura). El sistema elimina la necesidad de operadores humanos en embarcaciones e infraestructura celular al integrar **simulación hidrodinámica de alta fidelidad en ROS 2 / Gazebo Harmonic**, comunicación ad-hoc distribuida punto a punto (P2P) y despliegues físicos multiagente en campo.
 
 Desarrollado en el **Laboratorio CoRAL (ESPOL)**.
+
+<p align="right">
+  <a href="README.md">🌐 <b>English</b></a> &nbsp;|&nbsp; 
+  <a href="README.es.md">🌐 <b>Español</b></a>
+</p>
 
 ---
 
