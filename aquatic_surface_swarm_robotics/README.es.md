@@ -7,7 +7,7 @@
 [![Protocolo](https://img.shields.io/badge/Comunicaciones-ESP--NOW_Ad--Hoc-009688.svg)](https://www.espressif.com/)
 [![Estado](https://img.shields.io/badge/Estado-Validado_en_Campo_%7C_En_Revisión_Q1-success.svg)](#-aviso-de-investigación-y-propiedad-intelectual)
 
-Un enjambre descentralizado integral de **Vehículos Autónomos de Superficie (USVs)** diseñado para la evaluación espacio-temporal continua de la calidad del agua (pH y temperatura). El sistema elimina la necesidad de operadores humanos en embarcaciones e infraestructura celular al integrar **simulación hidrodinámica de alta fidelidad en ROS 2 / Gazebo Harmonic**, comunicación ad-hoc distribuida punto a punto (P2P) y despliegues físicos multiagente en campo.
+Un enjambre descentralizado integral de **Vehículos Autónomos de Superficie (USVs)** diseñado para la evaluación espacio-temporal continua de la calidad del agua (pH y temperatura). El sistema elimina la necesidad de operadores humanos en embarcaciones e infraestructura al integrar **simulación hidrodinámica en ROS 2 / Gazebo Harmonic**, comunicación ad-hoc distribuida P2P y despliegues físicos multiagente en campo.
 
 Desarrollado en el **Laboratorio CoRAL (ESPOL)**.
 
@@ -47,19 +47,19 @@ Desarrollado en el **Laboratorio CoRAL (ESPOL)**.
 La plataforma USV se fundamenta en una arquitectura embebida híbrida distribuida, desacoplando la navegación autónoma de alto nivel de la adquisición de datos en tiempo real y la red punto a punto.
 
 ### 1. Navegación de Alto Nivel (Raspberry Pi Zero 2 W)
-- Ejecuta seguimiento de trayectorias, máquinas de estado de misión y nodos de ROS 2 (en desarrollo activo) sobre un entorno Linux embebido.
+- Ejecuta seguimiento de trayectorias, máquinas de estado de misión y nodos ROS 2 (aún en desarrollo) sobre entorno Linux embebido.
 - Traduce los waypoints geográficos objetivo en consignas continuas de rumbo y empuje.
 - Genera señales PWM para los **propulsores submarinos APISQUEEN**, integrando mecanismos de corte de emergencia inmediato.
 
 ### 2. Control de Bajo Nivel y Red Mesh Ad-Hoc (ESP32)
 - Interactúa directamente con el hardware: interfaces analógicas y digitales para sondas de pH y temperatura de grado industrial.
-- Ejecuta la estimación de orientación (yaw) mediante IMU y el posicionamiento GPS.
-- Aloja el protocolo de comunicación descentralizado **ESP-NOW**, manteniendo tablas dinámicas de vecindad sin depender de routers Wi-Fi locales ni redes celulares 4G/5G.
+- Ejecuta la estimación de orientación mediante IMU y el posicionamiento GPS.
+- Protocolo de comunicación descentralizado **ESP-NOW**, manteniendo tablas dinámicas de vecindad sin depender de routers Wi-Fi locales ni redes celulares 4G/5G.
 
 <p align="center">
   <img src="media/dual_architecture.png" width="720" alt="Arquitectura Dual">
   <br>
-  <em>Figura 1: Arquitectura embebida dual de hardware y software de la plataforma de enjambre acuático.</em>
+  <em>Figura 1: Arquitectura dual de hardware y software de la plataforma de enjambre acuático.</em>
 </p>
 
 ---
@@ -68,7 +68,7 @@ La plataforma USV se fundamenta en una arquitectura embebida híbrida distribuid
 
 ### 1. Coordinación Descentralizada y Red Mesh ESP-NOW
 - Los nodos transmiten periódicamente sus coordenadas locales, orientación y vectores de velocidad.
-- El enjambre divide y cubre cuerpos de agua extensos de forma autónoma sin depender de un servidor central.
+- El enjambre divide y cubre cuerpos acuáticos extensos de forma autónoma sin depender de un servidor central.
 - Cuando dos agentes detectan trayectorias convergentes dentro del radio de seguridad, las políticas reactivas descentralizadas de evasión de colisiones modulan el empuje diferencial de forma determinista.
 
 <p align="center">
@@ -90,7 +90,7 @@ La plataforma USV se fundamenta en una arquitectura embebida híbrida distribuid
 
 ### 3. Telemetría Continua de Calidad del Agua
 - En lugar de capturar muestras puntuales aisladas, los vehículos registran series temporales geoespaciales continuas.
-- La telemetría en tiempo real (pH, °C, posición GPS y marcas de tiempo) se transmite a un **panel de supervisión operativa en Node-RED**.
+- La telemetría en tiempo real (pH, °C, posición GPS y marcas de tiempo) se transmite a una **Dashboard en Node-RED**.
 
 <p align="center">
   <img src="media/dashboard_nodered.png" width="460" alt="Panel de Monitoreo en Node-RED">
@@ -107,11 +107,11 @@ La plataforma USV se fundamenta en una arquitectura embebida híbrida distribuid
 | **Tamaño del Enjambre** | 3 Unidades Físicas (Escalable) | Simulado hasta 20 nodos en Gazebo Harmonic |
 | **Cómputo Principal (SBC)** | Raspberry Pi Zero 2 W | Quad-core ARM Cortex-A53 @ 1 GHz, 512MB RAM |
 | **MCU de Tiempo Real** | ESP32-WROOM-32 | Dual-core Tensilica Xtensa de 32 bits @ 240 MHz |
-| **Comunicaciones Inter-Agente** | ESP-NOW (2.4 GHz) | Entrega de paquetes ad-hoc punto a punto sin infraestructura de red externa |
+| **Comunicaciones Inter-Agente** | ESP-NOW (2.4 GHz) | Entrega de paquetes ad-hoc punto a punto sin infraestructura externa |
 | **Sensores** | GPS, IMU, pH, Temperatura | Adquisición continua de series temporales |
 | **Propulsión** | Propulsores Submarinos APISQUEEN | Configuración de empuje diferencial para rotación en superficie |
 | **Alimentación** | LiPo 3S (11.1V, Alta Capacidad) | ~9 horas de autonomía en misión continua |
-| **Chasis y Estructura** | Flotador Anular Híbrido + Núcleo 3D | Carcasa impermeable IP67 personalizada con acceso modular para mantenimiento |
+| **Chasis y Estructura** | Flotador Anular Híbrido + Carcasa 3D | Carcasa impermeable IP67 personalizada con acceso modular para mantenimiento |
 | **Costo de Fabricación Unitario**| ~$600 USD por nodo | Alternativa accesible frente a boyas comerciales de un solo vehículo |
 
 ---
@@ -139,3 +139,35 @@ aquatic_surface_swarm_robotics/
 │   ├── hardware_chassis_render.png      # Vista explosionada CAD 3D en SolidWorks
 │   ├── physical_connections.jpg         # Conexiones electrónicas reales
 │   └── pcb_design.jpg                   # PCB diseñada en KiCad, extensión de pines ESP32
+```
+
+---
+
+## 🔒 Aviso de Investigación y Propiedad Intelectual
+> **Nota sobre Datos de Investigación y Código Fuente:**  
+> La implementación algorítmica completa (consenso descentralizado, ajuste de parámetros hidrodinámicos y de control), junto con los sets de datos experimentales completos, forman parte de un paper en preparación para su envío a una revista científica. El acceso al código fuente completo está disponible previa solicitud para evaluación académica o comités técnicos de selección.
+
+---
+
+## 👤 Equipo de Investigación y Desarrollo
+
+* **Emmanuel Rivas Pincay** — Ingeniero de Robótica y Sistemas Embebidos
+
+  *Graduado de Ingeniería Mecatrónica, ESPOL*
+
+  **Áreas principales:** Algoritmos de control distribuido, arquitectura embebida dual (RPi/ESP32), simulación en ROS 2/Gazebo, prototipado electromecánico, diseño de carcasas impermeables y validación del sistema completo en campo.
+
+  [LinkedIn](https://linkedin.com/in/emmanuel-rivas-pincay-a25334221) | [Email](mailto:egrivas64@gmail.com)
+
+* **Milena Rodríguez Astudillo** — Ingeniera de Robótica y Diseño Mecánico  
+
+  *Graduada de Ingeniería Mecatrónica, ESPOL*
+
+  **Áreas principales:** Diseño estructural en CAD, manufactura aditiva, ensamblaje electromecánico y soporte en pruebas de campo.
+
+  [LinkedIn](https://www.linkedin.com/in/milena-dayanna-rodr%C3%ADguez-astudillo-4976b4298/) | [Email](mailto:mildarod@espol.edu.ec)
+
+### 🏛️ Supervisión Académica
+* **Directores de Tesis:** [David Garzón, Ph.D.](https://scholar.google.com/citations?user=4-CJclQAAAAJ&hl=en) | [Christian Tutivén, Ph.D.](https://scholar.google.com/citations?hl=en&user=yN1sEhsAAAAJ) 
+* **Grupo de Investigación:** **[CoRAL](https://github.com/coral-espol/)** (Collective Robotics and AI Lab)
+* **Institución:** Escuela Superior Politécnica del Litoral (ESPOL), Guayaquil, Ecuador
