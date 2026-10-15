@@ -11,6 +11,11 @@ An end-to-end decentralized swarm of **Unmanned Surface Vehicles (USVs)** engine
 
 Developed at **CoRAL Lab (ESPOL)**.
 
+<p align="right">
+  <a href="README.md">🇬🇧 <b>English</b></a> &nbsp;|&nbsp; 
+  <a href="README.es.md">🇪🇸 <b>Español</b></a>
+</p>
+
 ---
 
 ## 🎬 Field Deployments & Sim-to-Real Showcase
