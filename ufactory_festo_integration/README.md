@@ -87,7 +87,7 @@ To guarantee collision-free operation within the compact footprint and clear the
 <p align="center">
   <img src="media/cad_workcell_layout.png" width="600" alt="SolidWorks CAD Layout">
   <br>
-  <em>Figure 4: Workcell assembly modeling in SolidWorks 2024 confirming reaching envelopes and clearance.</em>
+  <em>Figure 4: Workcell assembly modeling in SolidWorks.</em>
 </p>
 
 ### Standard Denavit-Hartenberg Parameters
@@ -184,16 +184,16 @@ ufactory_festo_integration/
 
 - **Emmanuel Rivas Pincay** — Lead Systems Integration & Control Engineer  
   *Mechatronics Engineering, ESPOL*
-  **Core Contributions:** Kinematic workspace modeling, centralized Python FSM architecture, optocoupled signal conditioning design, Modbus TCP gateway implementation, and cell commissioning[cite: 38, 39, 40].  
+  **Core Contributions:** Kinematic workspace modeling, centralized Python FSM architecture, optocoupled signal conditioning design, Modbus TCP gateway implementation and cell commissioning.  
   [LinkedIn](https://linkedin.com/in/emmanuel-rivas-pincay-a25334221) | [Email](mailto:egrivas64@gmail.com)
 
 - **Eliezer Acebo Mota** — Mechanical Design & Automation Engineer
   *Mechatronics Engineering, ESPOL*  
-  **Core Contributions:** Station layout planning, and Festo station maintenance.
+  **Core Contributions:** Station layout planning and Festo station maintenance.
 
 - **Génesis Dayanna Vargas Isa** — Software & IIoT Developer 
   *Mechatronics Engineering, ESPOL*  
-  **Core Contributions:** Node-RED flow architecture, HMI UI/UX dashboard styling, and Wokwi simulation testing.
+  **Core Contributions:** Node-RED flow architecture, HMI UI/UX dashboard styling and Wokwi simulation testing.
 
 - **Steven Cisneros Villón** — Electrical & Automation Engineer  
   *Mechatronics Engineering, ESPOL* 
