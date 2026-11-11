@@ -15,6 +15,8 @@ This repository serves as a centralized technical showcase of my major engineeri
 > 🚧 **Active Maintenance & Documentation Notice:**  
 > This portfolio is actively undergoing technical consolidation. Detailed case studies, field telemetry datasets, hardware schematics and demonstration media across certain projects are currently being compiled, documented, and structured. Progress and updates are committed regularly. (My thesis documentation is already finished, it can be checked in [Aquatic Surface Swarm Robotics](./aquatic_surface_swarm_robotics/)).
 
+> *Note on update timeline:* Ongoing relocation and temporary maintenance on my primary workstation (following recent localized flooding at my home) have temporarily delayed the release of pending assets. All project data is safe and intact, regular documentation updates will resume shortly once hardware setup is complete.
+
 ---
 
 ## 🧰 Core Engineering Skills
